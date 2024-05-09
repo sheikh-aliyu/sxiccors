@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url('Back.jpg'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin: auto;
+    width: 60%; /* Adjusted width for better appearance */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for contrast */
+}
+
+h1 {
+    font-size: 75px; /* Increases the size of the title */
+    margin-bottom: 100px; /* Adds space between the title and buttons */
+}
+
+.game {
+    display: flex;
+    justify-content: center; /* Center-aligns the buttons */
+    margin-bottom: 20px;
+}
+
+.game-button {
+    margin: 50px; /* Adds space between buttons */
+    padding: 0; /* No padding since the image fills the button */
+    border: none; /* Remove border */
+    background: none; /* Remove default button background */
+    cursor: pointer;
+}
+
+.game-button img {
+    width: 200px; /* Adjusts the image width */
+    height: 200px; /* Adjusts the image height */
+    object-fit: cover; /* Ensures the image covers the entire button */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#scoreboard {
+    margin-top: 30px; /* Adds space between the result and the scoreboard */
+    font-size: 18px;
+    border-top: 1px solid #ccc; /* Adds a line above the scoreboard for separation */
+    padding-top: 10px; /* Adds space above the scoreboard */
+}
+
+#scoreboard h2 {
+    font-size: 24px; /* Font size for the scoreboard heading */
+    margin-bottom: 10px; /* Adds space between the heading and the scores */
+}
+
+#scoreboard p {
+    margin: 5px 0; /* Minimal margin between each score line */
+}
